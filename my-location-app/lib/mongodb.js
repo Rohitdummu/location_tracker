@@ -5,9 +5,8 @@ const options = {};
 
 let client;
 let clientPromise;
-console.log("knkjk", uri)
 if (!process.env.MONGODB_URI) {
-    throw new Error("Please add MONGODB_URI to .env.local");
+    throw new Error("Please add MONGODB_URI to .env");
 }
 
 if (process.env.NODE_ENV === "development") {
