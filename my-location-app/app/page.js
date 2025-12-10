@@ -39,7 +39,7 @@ export default function Home() {
 
   return (
     <main style={{ padding: 20 }}>
-      <h1>Save My Location</h1>
+      <h1>Save My Name</h1>
 
       <input
         type="text"
